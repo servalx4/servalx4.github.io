@@ -6,16 +6,46 @@
   font-style: normal;
 }
 body {
-  background-image: url('PerihelionRender3.png');
+  background-image: url('https://512pixels.net/wp-content/uploads/2025/06/26-Tahoe-Light-6K-thumb.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin: 0;
   height: 100vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #111111;
   font-family: 'Adwaita Sans', sans-serif;
-  font-size: 2rem;
+
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0.55rem;
+  border-radius: 2.4rem;
+  max-width: 100rem;
+  width: 90%;
+  backdrop-filter: blur(2rem);
+  -webkit-backdrop-filter: blur(100rem);
+  border: 1px solid;
+  border-color: rgba(51, 51, 51, 0.3);
+  box-shadow: 0px 0px 6rem rgba(0, 0, 0, 0.5);
+}
+.sidebar {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0.55rem;
+  border-radius: 2.4rem;
+  width: 20%;
+  backdrop-filter: blur(2rem);
+  -webkit-backdrop-filter: blur(100rem);
+  border: 1px solid;
+  border-color: rgba(51, 51, 51, 0.1);
+  box-shadow: 0px 0px 0.5rem rgba(0, 0, 0, 0.1);
+}
+.nav {
+  font-size: 1.3rem;
+  bottom: 10rem;
 }
