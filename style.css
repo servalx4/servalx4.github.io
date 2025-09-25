@@ -23,29 +23,92 @@ body {
 }
 
 .container {
+  display: flex;
   background-color: rgba(255, 255, 255, 1);
   padding: 0.55rem;
-  border-radius: 2.4rem;
+  border-radius: 2rem;
   max-width: 100rem;
   width: 90%;
   backdrop-filter: blur(2rem);
   -webkit-backdrop-filter: blur(100rem);
   border: 1px solid;
   border-color: rgba(51, 51, 51, 0.3);
-  box-shadow: 0px 0px 6rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 6rem rgba(0, 0, 0, 0.3);
 }
 .sidebar {
   background-color: rgba(255, 255, 255, 1);
   padding: 0.55rem;
-  border-radius: 2.4rem;
-  width: 20%;
+  border-radius: 2rem;
+  width: 17.5%;
   backdrop-filter: blur(2rem);
   -webkit-backdrop-filter: blur(100rem);
-  border: 1px solid;
-  border-color: rgba(51, 51, 51, 0.1);
   box-shadow: 0px 0px 0.5rem rgba(0, 0, 0, 0.1);
 }
 .nav {
-  font-size: 1.3rem;
-  bottom: 10rem;
+  font-size: 1.1rem;
+  margin: 0.2rem;
+}
+.links {
+  line-height: 0.3;
+  font-size: 0.8rem;
+  color: #737f81;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+.entry {
+  font-size: 1rem;
+  color: #000000;
+  font-weight: normal;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0 -0.5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  line-height: 0.1;
+}
+.entry:hover {
+  transition: color 0.2s ease;
+  transition: background-color 0.2s ease;
+  background-color: rgba(0, 0, 0, 0.07);
+  color: #0073da;
+}
+.fwdbkwd {
+  color: #bfbfbf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  line-height: 0px;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 0 0.55rem;
+  border-radius: 2rem;
+  width: 5.5rem;
+  height: 3rem;
+  backdrop-filter: blur(2rem);
+  -webkit-backdrop-filter: blur(100rem);
+  box-shadow: 0px 0px 0.5rem rgba(0, 0, 0, 0.1);
+}
+.arrleft,
+.arrright {
+  top: 50%;
+  font-size: 2rem;
+  color: #bfbfbf;
+  font-weight: normal;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0.5rem;
+  height: 63%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  line-height: 0;
+}
+.arrleft:hover,
+.arrright:hover {
+  transition: color 0.2s ease;
+  color: #282828;
 }
